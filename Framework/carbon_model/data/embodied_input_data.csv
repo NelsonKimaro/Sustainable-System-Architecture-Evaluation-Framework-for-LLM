@@ -1,0 +1,3 @@
+Nr,Kr,chip_area,CI_fab,EPA,GPA,MPA,Y,CPS_DRAM,CPS_HDD,CPS_SSD,capacity_DRAM,capacity_HDD,capacity_SSD
+4,0.15,30,82,2.1,0.3,0.5,0.8,30,35,32,4,500,500
+8,0.15,35,700,2.7,0.4,0.5,0.8,30,35,32,4,256,500

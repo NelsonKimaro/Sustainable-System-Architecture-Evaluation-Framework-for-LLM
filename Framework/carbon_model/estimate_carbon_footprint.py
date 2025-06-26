@@ -42,7 +42,7 @@ def process_total_carbon(operational_path: str, embodied_path: str, output_path:
         embodied_carbon = embodied_model.calculate_carbon()
 
         #  Total Carbon 
-        total_model = TotalCarbonModel(embodied_model, operational_model)
+        total_model = TotalCarbonModel(embodied_model, operational_model,op_row['active_time'],op_row['hardware_life_time'])
         total_carbon = total_model.calculate_total_carbon()
 
         #  Combine Results 
@@ -61,14 +61,14 @@ def process_total_carbon(operational_path: str, embodied_path: str, output_path:
     # Create final DataFrame and save
     df_result = pd.DataFrame(results)
     df_result.to_csv(output_path, index=False)
-    print(f"✅ Results saved to: {output_path}")
+    print(f"✅ Carbon results saved to: {output_path}")
 
 
 if __name__ == "__main__":
     process_total_carbon(
-        operational_path=r"M:\PhD Computer Science\Papers\Contribution 1\Framework\carbon_model\data\operational_input_data.csv",
-        embodied_path=r"M:\PhD Computer Science\Papers\Contribution 1\Framework\carbon_model\data\embodied_input_data.csv",
-        output_path=r"M:\PhD Computer Science\Papers\Contribution 1\Framework\carbon_model\data\carbon_results.csv"
+        operational_path=r"carbon_model/data/operational_input_data.csv",
+        embodied_path=r"carbon_model/data/embodied_input_data.csv",
+        output_path=r"carbon_model/data/carbon_results.csv"
     )
 
     

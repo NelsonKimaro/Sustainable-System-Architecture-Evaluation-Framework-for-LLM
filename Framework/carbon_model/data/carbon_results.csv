@@ -1,3 +1,3 @@
-embodied_carbon,operational_carbon,total_carbon,energy_usage_kwh,CI_op,Nr,Kr,chip_area,CI_fab,EPA,GPA,MPA,Y,CPS_DRAM,CPS_HDD,CPS_SSD,capacity_DRAM,capacity_HDD,capacity_SSD
-40108.1Kg CO2e,19.106Kg CO2e,40127.206Kg CO2e,82.0,0.233,4.0,0.15,30.0,82.0,2.1,0.3,0.5,0.8,30.0,35.0,32.0,4.0,500.0,500.0
-107808.075Kg CO2e,163.1Kg CO2e,107971.175Kg CO2e,700.0,0.233,8.0,0.15,35.0,700.0,2.7,0.4,0.5,0.8,30.0,35.0,32.0,4.0,256.0,500.0
+embodied_carbon,operational_carbon,total_carbon,energy_usage_kwh,CI_op,active_time,hardware_life_time,Nr,Kr,chip_area,CI_fab,EPA,GPA,MPA,Y,CPS_DRAM,CPS_HDD,CPS_SSD,capacity_DRAM,capacity_HDD,capacity_SSD
+40108.1Kg CO2e,23.999Kg CO2e,24088.859Kg CO2e,103.0,0.233,3.0,5.0,4.0,0.15,30.0,82.0,2.1,0.3,0.5,0.8,30.0,35.0,32.0,4.0,500.0,500.0
+107808.075Kg CO2e,163.1Kg CO2e,72035.15Kg CO2e,700.0,0.233,2.0,3.0,8.0,0.15,35.0,700.0,2.7,0.4,0.5,0.8,30.0,35.0,32.0,4.0,256.0,500.0

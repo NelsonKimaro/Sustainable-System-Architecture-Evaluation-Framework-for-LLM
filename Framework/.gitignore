@@ -1,0 +1,16 @@
+*.pdf
+*.csv
+# !**/real_hardware/**/*.csv
+# !expected_results/*
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+
+
+

@@ -42,7 +42,7 @@ def process_total_carbon(operational_path: str, embodied_path: str, output_path:
         embodied_carbon = embodied_model.calculate_carbon()
 
         #  Total Carbon 
-        total_model = TotalCarbonModel(embodied_model, operational_model,op_row['active_time'],op_row['hardware_life_time'])
+        total_model = TotalCarbonModel(embodied_model, operational_model,op_row['hardware_life_time'])
         total_carbon = total_model.calculate_total_carbon()
 
         #  Combine Results 
